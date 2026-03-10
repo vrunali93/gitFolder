@@ -15,7 +15,7 @@ public class Application {
 
     @GetMapping("/")
     public String home() {
-        return "Hello from Java application running on port 8082!";
+        return "Hello from Java application running on port 8082!,test 1";
     }
 
     @GetMapping("/health")
